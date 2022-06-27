@@ -1,4 +1,4 @@
-package com.example.springpetclinic3;
+package springpetclinic3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
