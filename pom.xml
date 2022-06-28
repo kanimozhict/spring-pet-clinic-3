@@ -35,7 +35,18 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+    <scm>
+        <developerConnection>scm:git:https://github.com/kanimozhict/spring-pet-clinic-3.git</developerConnection>
+    </scm>
 
 </project>
